@@ -232,7 +232,7 @@ h2 {
     -webkit-border-radius: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
-.newsletter input[type="submit"] {
+.newsletter input[type="button"] {
     width: 25%;
     height: 41px;
     color: #333;

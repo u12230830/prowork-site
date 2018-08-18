@@ -14,24 +14,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script src="js/toastr.min.js"></script>
+<script src="js/custom.js"></script>
+
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="css/jquery.countdown.css" />
 <!--fonts--> 
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 <!--//fonts--> 
+<!-- toastr -->
+<link href="css/toastr.min.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="agile">
      	<div class="container">
-			<h1>Spinner Coming Soon</h1>
+			<h1>Prowork Business Projects</h1>
 			
 			<div class="clear-loading spinner">
 				<span></span>
 			</div>
 			
 			<div class="wthree-info">  
-				<h2>We'll be back soon!</h2>
+				<h2>We'll be live soon!</h2>
 				<p>We are busy improving our website, and should be back online in.</p>
 			</div>
 			<!--timer-->
@@ -62,17 +67,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!--//timer-->
 			<!--newsletter-->
 			<div class="newsletter">
-				<h2>Subscribe Now</h2>
+				<h2>Leave us your email and we'll get back to you</h2>
 				<form action="#" method="post" class="newsletter">
 					<input class="email" type="email" placeholder="Enter Your Email..." required="">
-					<input type="submit" class="submit" value="subscribe">
+					<input type="button" onclick="showSuccessToast()" class="submit" value="subscribe">
 				</form>
 
             </div>
 			<!--//newsletter-->
 			<!--copyright-->
 			<div class="copy w3ls">
-		       <p>© 2018 Spinner Coming Soon . All Rights Reserved  | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+		       <p>© 2018 Prowork Business Projects | <a href="mailto:enquiries@prowork.co.za">enquiries@prowork.co.za</a> | 012 753 7617 </p>
 	        </div>
 			<!--//copyright-->
         </div>
