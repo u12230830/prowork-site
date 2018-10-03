@@ -1,10 +1,13 @@
-/*--
-	Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/*-- Reset-Code --*/
+@media screen and (max-width: 600px) {
+	#logo {
+	  visibility: hidden;
+	  clear: both;
+	  float: left;
+	  margin: 10px auto 5px 20px;
+	  width: 28%;
+	  display: none;
+	}
+  }
 
 body {
 	padding: 0;
@@ -1120,6 +1123,9 @@ h4.modal-title {
 	color:#000;
 }
 .stats i.fa.fa-thumbs-up {
+    color: blueviolet;
+}
+.stats i.fa.fa-percent {
     color: blueviolet;
 }
 .stats i.fa.fa-users {

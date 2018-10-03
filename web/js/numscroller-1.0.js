@@ -68,13 +68,14 @@
             var max=$('.roller-title-number-'+slno).attr('data-max');
             var timediff=$('.roller-title-number-'+slno).attr('data-delay');
             var increment=$('.roller-title-number-'+slno).attr('data-increment');
+            //$('.roller-title-number-'+slno).html().append('%');
             var numdiff=max-min;
             var timeout=(timediff*1000)/numdiff;
             //if(numinc<10){
                 //increment=Math.floor((timediff*1000)/10);
             //}//alert(increment);
             numberRoll(slno,min,max,increment,timeout);
-            
+            //addPercent();
     }
     function numberRoll(slno,min,max,increment,timeout){//alert(slno+"="+min+"="+max+"="+increment+"="+timeout);
         if(min<=max){
@@ -85,4 +86,8 @@
             $('.roller-title-number-'+slno).html(max);
         }
     }
+    function addPercent(){
+        $('.numscroller').html().append('%');
+    }
+    addPercent();
 })(jQuery);
